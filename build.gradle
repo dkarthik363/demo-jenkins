@@ -23,4 +23,6 @@ dependencies {
 
 test {
 	useJUnitPlatform()
+
 }
+// to test build trigger
