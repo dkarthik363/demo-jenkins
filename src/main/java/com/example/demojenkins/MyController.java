@@ -9,6 +9,6 @@ public class MyController {
 
     @GetMapping("/get/{name}")
     public String getName(@PathVariable String name){
-        return "Hello "+name+" !!";
+        return "Hello 2 --  "+name+" !!";
     }
 }
