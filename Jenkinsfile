@@ -5,7 +5,7 @@ pipeline {
 	stages{
 	stage('Build'){
 		steps{
-			sh 'gradle clean build'
+			bat 'gradle clean build'
 		}
 		post{
 		success{
